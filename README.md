@@ -2,9 +2,9 @@
 Prolog program to parse and interpret a made-up language called _Postfix_. _Postfix_ is a stack-based language defined in 
 _Design Concepts in Programming Languages_, by Franklyn Turbak and David Gifford.
 
-'interpreter.pl' simply returns the result of the command provided in 'input.txt'
+`interpreter.pl` simply returns the result of the command provided in 'input.txt'
 
-'interpreter2.pl' will display the stack after each command execution.
+`interpreter2.pl` will display the stack after each command execution.
 
 ## Usage
 ```
@@ -13,7 +13,7 @@ _Design Concepts in Programming Languages_, by Franklyn Turbak and David Gifford
 ```
 
 ### Example
-'input.txt' contains the an example PostFix program that will calculate b - a*b². '<arguments>' will contain a and b respectively.
+`input.txt` contains the an example PostFix program that will calculate b - a*b². `<arguments>` will contain a and b respectively.
 
 ```
 ? - [interpreter]. 
