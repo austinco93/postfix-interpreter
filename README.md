@@ -12,7 +12,7 @@ _Design Concepts in Programming Languages_, by Franklyn Turbak and David Gifford
 ? - scan('<filename>', T),parse(T, AST),interpret(AST,[<arguments>]).  
 ```
 
-### Example
+## Example
 `input.txt` contains the an example PostFix program that will calculate b - a*b². `<arguments>` will contain a and b respectively.
 
 ```
